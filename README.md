@@ -10,7 +10,7 @@
 ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/Clustering-scikit--learn-orange?logo=scikitlearn&logoColor=white)
 
-**Dataset:** [Online Retail II (Kaggle)](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
+**Dataset (Online Retail II UCI by Miyabon):** [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
 
 </div>
 
