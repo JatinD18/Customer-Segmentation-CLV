@@ -1,1 +1,18 @@
+# Raw data — too large for GitHub (download from Kaggle instead)
+online_retail_II.csv
 
+# Python environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Agent / IDE folders
+.agents/
+.claude/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
