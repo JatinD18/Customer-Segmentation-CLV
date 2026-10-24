@@ -33,7 +33,7 @@ The output is an **interactive Streamlit app** where stakeholders can explore se
 ## 🔁 The Pipeline
 
 ```text
-online_retail_II.csv          (1M+ raw transactions — Kaggle, not stored in repo)
+online_retail_II.csv          (1M+ raw transactions — Kaggle)
         │
         │  scripts/step1_rfm.py      cleaning + RFM aggregation
         ▼
