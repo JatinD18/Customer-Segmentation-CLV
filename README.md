@@ -112,7 +112,7 @@ Customer-Segmentation-CLV/
 ├── app.py                      # Streamlit application (entry point)
 ├── requirements.txt            # Python dependencies
 ├── README.md
-├── .gitignore                  # excludes raw 92MB CSV & virtual envs
+├── online_retail_II.csv         # Raw data
 │
 ├── data/
 │   ├── rfm.csv                 # Step 1 output — RFM table
@@ -124,18 +124,11 @@ Customer-Segmentation-CLV/
 │   ├── step2_clustering.py     # K-Means + elbow/silhouette validation
 │   └── step3_clv.py            # CLV computation
 │
-├── notebooks/
-│   └── customer_segmentation.ipynb   # exploratory analysis & prototyping
-│
 └── assets/
     ├── elbow_silhouette.png    # cluster-count validation
     ├── segments_scatter.png    # segments in RFM space
     └── clv_by_segment.png      # CLV distribution per segment
-```
 
-> **Raw data note:** `online_retail_II.csv` (~92 MB) is intentionally **not** stored in this repository. Download it from [Kaggle](https://www.kaggle.com/datasets/ma7moud3bas/online-retail-ii) and place it in the project root to re-run the pipeline.
-
----
 
 ## 📖 Data Dictionary (`customers_with_clv.csv`)
 
@@ -147,8 +140,6 @@ Customer-Segmentation-CLV/
 | `Monetary` | Total spend |
 | `Cluster / Segment` | K-Means behavioural group assignment |
 | `CLV` | Estimated customer lifetime value |
-
-*(Adjust names to match your exact column headers.)*
 
 ---
 
